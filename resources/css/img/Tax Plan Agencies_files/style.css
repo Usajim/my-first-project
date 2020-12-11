@@ -1,0 +1,217 @@
+/* Basic setup */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* Re-usable components */
+.row {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.who-we-are {
+    max-width: 960px;
+    margin: 0px auto;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 160%;
+
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 2%;
+}
+
+
+.box img {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.boxes {
+    padding: 2%;
+}
+
+
+.boxes img {
+    height: 500px;
+    margin-bottom: 10px;
+    width: 600px ;
+}
+
+/* Header */
+header {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/Background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.two {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/Background\ Image\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.background {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.logo-down{
+    height: 100px;
+    width: auto;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px; 
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid green;
+}
+
+/* Headings */
+h1 {
+    color: white;
+    font-size: 150%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+h1, 
+h2 
+h3{
+    font-weight: 100;
+    
+}
+
+h2 {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: green;
+    content: " ";
+    width: 100px;
+    margin: 0px auto;
+    margin-top: 20px;
+   
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 10px;
+
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 80%;
+    line-height: 180%;
+}
+
+/*LISTS*/
+
+ol {
+    line-height: 150%;
+    margin-left: 0px;
+}
+
+ul {
+    list-style-position: outside;
+    padding: 20px;
+    line-height: 180%;
+    font-size: 80%;
+
+}
+
+.main {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 100%;
+    font-weight: 500;
+   
+}
+
+/* FORMS */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid green;
+}
+
+/* BUTTONS*/
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300px;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: green;
+}
+
+

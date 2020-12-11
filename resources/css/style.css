@@ -1,0 +1,380 @@
+/* Basic setup */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* Re-usable components */
+.row {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.who-we-are {
+    max-width: 960px;
+    margin: 0px auto;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 160%;
+}
+
+/* Sections */
+section {
+    padding: 100px 0;
+}
+.section-form {
+    background-color: whitesmoke;
+}
+.box {
+    padding: 2%;
+}
+
+.box img {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.list-of-services {
+    background-color: #E2EBF2;
+    width: 90%;
+    padding-left: 10px;
+    line-height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+   
+}
+
+.list-of-services ul {
+    list-style-type: circle;
+}
+
+.list-of-services h3 {
+    margin-bottom: 0px;
+}
+
+.list-of-services li {
+    padding-bottom: 2px;
+}
+
+.list-of-services li a {
+    color: black;
+    
+}
+
+.list-of-services li a:hover,
+.list-of-services li a:active {
+    color: blue;
+    transition: color 0.2s;
+}
+
+.list-of-services li a:link,
+.list-of-services li a:visited {
+       text-decoration: none;
+}
+
+.more {
+   margin-top: 0px;
+   padding-left: 20px;
+   padding-right: 0px;
+}
+
+.more img {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 0px;
+    height: 400px;
+}
+
+/* Header */
+header {
+    background-image:-webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ),url(img/Background-image.jpg);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/Background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.two {
+    background-image:-webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ),url(img/Background\ Image\ 2.jpg);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/Background\ Image\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.background {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 0px;
+}
+
+.logo-down{
+    height: 100px;
+    width: auto;
+}
+
+/* Main Navi*/
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    font-weight: 300; 
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #0EE98B;
+}
+
+/*Sticky Navi*/
+.sticky {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #0EE98B;
+    box-shadow: 0px 2px 2px black;
+    z-index: 9999;
+    height: 120px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 10px 0px;
+    color: black;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    border-bottom: 2px solid black;
+}
+
+/*Mobile Navi*/
+.close-outline {
+    float: right;
+    margin-top: 10px;
+    font-size: 300%;
+    color: white;
+    display: none;
+}
+
+.menu-outline {
+    float: right;
+    margin-top: 10px;
+    font-size: 300%;
+    color: white;
+    display: none;
+}
+
+/* Headings */
+h1 {
+    color: white ;
+    font-size: 150%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+h1, 
+h2 
+h3{
+    font-weight: 100;
+    
+}
+
+h2 {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: green;
+    content: " ";
+    width: 100px;
+    margin: 0px auto;
+    margin-top: 20px;
+   
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 10px;
+
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 80%;
+    line-height: 180%;
+}
+
+/*LISTS*/
+
+ol {
+    line-height: 150%;
+    margin-left: 0px;
+}
+
+ul {
+    list-style-position: outside;
+    padding: 20px;
+    line-height: 180%;
+    font-size: 80%;
+
+}
+
+.main {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 100%;
+    font-weight: 500;
+   
+}
+
+/* FORMS */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+/* BUTTONS*/
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300px;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #0EE98B;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0EE98B;
+    padding: 20px;
+    font-size: 80%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li, 
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child, 
+.social-links li:last-child {
+        margin-right: 0px;  
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0px;
+    color: white;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: black;
+
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 170%;
+}
+
+.fab fa-facebook,
+.fab fa-twitter,
+.fab fa-instagram,
+.fab fa-linkedin {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fab fa-facebook:hover {
+    color: #3b5998;
+}
+.fab fa-instagram:hover {
+    color:#517fa4;
+}
+.fab fa-linkedin:hover {
+    color: #0c368f;
+}
+.fab fa-twitter:hover {
+    color: #00aced;
+}

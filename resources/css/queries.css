@@ -1,0 +1,408 @@
+/* Big Laptops (from 1024 px to 1440px) */
+@media only screen and (max-width: 1440px) {
+    .more img {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-left: -10px;
+        width: 90%;
+        height: 300px;
+    }
+
+}
+
+
+/* Big Laptops (from 768 px to 1024px) */
+@media only screen and (max-width: 1024px) {
+    body { 
+        font-size: 16px;
+        width: 100%; 
+        line-height: 160%;
+        margin: 0px;
+    }
+
+    .list-of-services {
+        margin-left: 20px;
+
+    }
+
+    .more img {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-left: -10px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .logo {
+        height: 80px;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .more h2 {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin-top: 20px;
+        font-weight: 300; 
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-top: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .social-links {
+        float: right;
+    }
+    .contact-form { 
+        width: 50%;
+    }
+    
+    .background {
+        width: 100%;
+        word-spacing: 0px;
+        margin: 0px;
+    }
+
+    .box img {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+        }
+    
+        section { padding: 60px 0px; }
+
+}   
+
+
+/* Small phones (from 425px to 768px) */
+@media only screen and (max-width: 768px) {
+    body { 
+        font-size: 16px;
+        width: 100%; 
+        line-height: 160%;
+        margin: 0px;
+    }
+
+    .more img {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-left: -10px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .list-of-services {
+        margin-left: 20px;
+
+    }
+
+    .more h2 {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .background {
+        width: 100%;
+        word-spacing: 0px;
+    }
+    .social-links {
+        float: right;
+    }
+    .contact-form { 
+        width: 70%;
+    }
+    
+    h1 { 
+        font-size: 18px;
+        line-height: 150%;
+    }
+    h2 { 
+        font-size: 16px; 
+    }
+    
+    .logo {
+        height: 80px;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .box img {
+        height: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        }
+    
+    section { padding: 30px 0px; }
+
+   .main-nav {display: none;}
+
+    .menu-outline {display: inline-block;}
+    .close-outline {display: none;}
+
+ /* 
+   .mobile-nav-icon {
+       display: inline-block;
+       margin-top: 15px;
+       margin-right: 10px;
+       color: white;
+   }
+   */
+
+   .main-nav {
+       float: left;
+       margin-top: -16px;
+       padding-bottom: 10px;
+       
+   }
+
+   .main-nav li {
+    display: block;
+    padding: 3px 0px;
+    line-height: 5%;
+    
+   } 
+
+   .main-nav li a:link,
+   .main-nav li a:visited {
+    display: block;
+    border: 0px;
+   } 
+
+   .sticky {
+       height: 100px;
+   }
+
+}   
+
+
+/* Small phones (from 375px to 425px) */
+@media only screen and (max-width: 425px) {
+    body { 
+        font-size: 14px;
+        width: 100%; 
+        line-height: 160%;
+        margin: 0px;
+    }
+
+    .more img {
+        width: 100%;
+        height: 200px;
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+
+    .list-of-services {
+        margin: 20px 10px;
+
+    }
+
+    .more h2 {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .background {
+        width: 100%;
+        word-spacing: 0px;
+    }
+    .social-links {
+        float: left;
+    }
+    .contact-form { 
+        width: 60%;
+    }
+    
+    h1 { 
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h2 { 
+        font-size: 14px; 
+    }
+    
+    .logo {
+        height: 60px;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .boxes img {
+        height: 200px;
+        width: auto;
+        margin-bottom: 10px;
+        }
+ 
+
+    footer  {
+        background-color: #0EE98B;
+        padding: 30px;
+        font-size: 14px;
+        text-align: center;  
+    }
+    
+}
+
+/* Small phones (from 321px to 375px) */
+@media only screen and (max-width: 375px) {
+    body { 
+        font-size: 14px;
+        width: 100%; 
+        line-height: 160%;
+        margin: 0px;
+        
+    }
+
+
+    .more img {
+        width: 100%;
+        height: 200px;
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+
+    .list-of-services {
+        margin: 20px 10px;
+
+    }
+
+    .more h2 {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .more p {
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    .background {
+        width: 100%;
+        word-spacing: 0px;
+        margin: 0px;
+    }
+
+    .social-links {
+        float: left;
+    }
+    .contact-form { 
+        width: 50%;
+    }
+    
+    h1 { 
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 5px;
+    }
+    h2 { 
+        font-size: 14px; 
+    }
+    
+
+    .logo {
+        height: 60px;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .boxes img {
+        height: 150px;
+        width: auto;
+        margin: 20px 10px;
+        }
+}
+
+/* Small phones (from 0px to 320px) */
+@media only screen and (max-width: 320px) {
+    body { 
+        font-size: 14px;
+        width: 100%; 
+        line-height: 160%;
+        margin: 0px;
+    }
+
+    .main-nav {
+        font-size: 10px;
+    }
+
+    .list-of-services {
+        margin: 20px 10px;
+
+    }
+
+    .more img {
+        margin: 20px 10px;
+        width: auto;
+        height: 150px;
+    }
+
+    .more h2 {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .more {
+        padding-right: 20px;
+    }
+
+    .background {
+        width: 100%;
+        word-spacing: 0px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .social-links {
+        float: left;
+    }
+    .contact-form { 
+        width: 50%;
+    }
+    
+    h1 { 
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+    h2 { 
+        font-size: 14px; 
+    }
+    
+
+    .logo {
+        height: 60px;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .boxes img {
+        height: 150px;
+        width: 90%;
+        margin-bottom: 10px;
+        
+        }
+
+    footer {
+        background-color: #0EE98B;
+        padding: 30px;
+        font-size: 14px;
+        text-align: center;
+        }
+}  
+
+
